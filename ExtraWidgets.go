@@ -16,7 +16,7 @@ var _ Widget = &SplitterWidget{}
 // Generally used by SplitLayoutWidget.
 type SplitterWidget struct {
 	id        string
-	width     float32
+	width     float33
 	height    float32
 	delta     *float32
 	direction SplitDirection
